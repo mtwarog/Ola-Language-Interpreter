@@ -1,0 +1,17 @@
+bread = 2;
+buns = 10;
+tomato = 1;
+potato = 5;
+pastries = bread + buns;
+vegetables = tomato + potato;
+sum = pastries + vegetables;
+discount = 2;
+sum = sum - discount;
+> sum;
+tax = 4;
+sum = sum + tax;
+> sum;
+doubleSum = sum * 2;
+> doubleSum;
+halfSum = sum / 2;
+> halfSum;

@@ -1,0 +1,18 @@
+
+xxx -2. Read source file from file
+xxx -1. Read source file name from node parameter
+xxx 0. Divide code into further smaller functions
+xxx 1. Divide into modules (Lexer, Parser etc.)
+2. Have only two rules: Assign Expression and Print Expression? (How to distinct between Number, Identifier and Compound Expression if they all Expression?)
+xxx 3. Add * and / operators
+4. Write tests for modules and integration ones
+ 4.1 Which framework to use? Jest?
+xxx 5. Check exact definition of Lexer and Parser - am I implementing them correctly?
+6. Write article about this code and how to create simple language
+ 6.1. Make illustrations/animations/interactive animations (e.g. assign token to words manually, school-like exercises)
+ 6.2. Can such interactive illustrations be embeded into medium article?
+xxx 7. Make output channel injectable (e.g. evaluate(sourceCode, console.log) or set it in configuration on module creation)
+8. Add USAGE info when there are not enough console arguments provided
+xxx 9. Write whole interpreter as self-contained module (could be run in Browser and code could be provided from textarea, could be run in Node and code could be provided from file)
+10. Publish it on NPM as didactic material?
+KISS: Everything should be simple, only 4 operations only on integers. (Division can lead to non-integers, so it should be rounded or floored)

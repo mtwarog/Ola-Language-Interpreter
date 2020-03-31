@@ -1,0 +1,19 @@
+{
+  "name": "ola_interpreter",
+  "version": "1.0.0",
+  "description": "Simple interpreter of integer arithmetic supporting language Ola",
+  "main": "simpleInterpreter.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "interpreter",
+    "ola",
+    "education"
+  ],
+  "author": "MT",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.2.4"
+  }
+}
